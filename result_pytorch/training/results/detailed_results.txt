@@ -1,0 +1,404 @@
+================================================================================
+DETAILED PER-FOLD RESULTS
+================================================================================
+
+FOLD 1:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9771
+  Macro Precision: 0.8905
+  Macro Recall: 0.9728
+  Macro F1: 0.9275
+  Macro Dice: 0.9275
+  Macro IoU: 0.8698
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9961
+      Recall: 0.9775
+      F1: 0.9867
+      Dice: 0.9867
+      IoU: 0.9738
+    Class 1 (diastolic_CC):
+      Precision: 0.7499
+      Recall: 0.9677
+      F1: 0.8450
+      Dice: 0.8450
+      IoU: 0.7316
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9530
+      Recall: 0.9888
+      F1: 0.9706
+      Dice: 0.9706
+      IoU: 0.9428
+    Class 3 (diastolic_NH):
+      Precision: 0.8630
+      Recall: 0.9572
+      F1: 0.9077
+      Dice: 0.9077
+      IoU: 0.8310
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_1.pth
+
+==================================================
+
+FOLD 2:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9772
+  Macro Precision: 0.8864
+  Macro Recall: 0.9705
+  Macro F1: 0.9242
+  Macro Dice: 0.9242
+  Macro IoU: 0.8647
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9959
+      Recall: 0.9779
+      F1: 0.9868
+      Dice: 0.9868
+      IoU: 0.9739
+    Class 1 (diastolic_CC):
+      Precision: 0.7441
+      Recall: 0.9581
+      F1: 0.8376
+      Dice: 0.8376
+      IoU: 0.7206
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9556
+      Recall: 0.9896
+      F1: 0.9723
+      Dice: 0.9723
+      IoU: 0.9461
+    Class 3 (diastolic_NH):
+      Precision: 0.8501
+      Recall: 0.9562
+      F1: 0.9000
+      Dice: 0.9000
+      IoU: 0.8182
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_2.pth
+
+==================================================
+
+FOLD 3:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9779
+  Macro Precision: 0.8922
+  Macro Recall: 0.9722
+  Macro F1: 0.9285
+  Macro Dice: 0.9285
+  Macro IoU: 0.8712
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9960
+      Recall: 0.9787
+      F1: 0.9872
+      Dice: 0.9872
+      IoU: 0.9748
+    Class 1 (diastolic_CC):
+      Precision: 0.7676
+      Recall: 0.9613
+      F1: 0.8536
+      Dice: 0.8536
+      IoU: 0.7446
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9584
+      Recall: 0.9846
+      F1: 0.9713
+      Dice: 0.9713
+      IoU: 0.9442
+    Class 3 (diastolic_NH):
+      Precision: 0.8470
+      Recall: 0.9642
+      F1: 0.9018
+      Dice: 0.9018
+      IoU: 0.8211
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_3.pth
+
+==================================================
+
+FOLD 4:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9771
+  Macro Precision: 0.8858
+  Macro Recall: 0.9693
+  Macro F1: 0.9236
+  Macro Dice: 0.9236
+  Macro IoU: 0.8637
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9959
+      Recall: 0.9778
+      F1: 0.9868
+      Dice: 0.9868
+      IoU: 0.9739
+    Class 1 (diastolic_CC):
+      Precision: 0.7500
+      Recall: 0.9476
+      F1: 0.8373
+      Dice: 0.8373
+      IoU: 0.7201
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9536
+      Recall: 0.9892
+      F1: 0.9711
+      Dice: 0.9711
+      IoU: 0.9438
+    Class 3 (diastolic_NH):
+      Precision: 0.8437
+      Recall: 0.9627
+      F1: 0.8993
+      Dice: 0.8993
+      IoU: 0.8170
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_4.pth
+
+==================================================
+
+FOLD 5:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9765
+  Macro Precision: 0.8797
+  Macro Recall: 0.9750
+  Macro F1: 0.9223
+  Macro Dice: 0.9223
+  Macro IoU: 0.8613
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9969
+      Recall: 0.9761
+      F1: 0.9864
+      Dice: 0.9864
+      IoU: 0.9732
+    Class 1 (diastolic_CC):
+      Precision: 0.7392
+      Recall: 0.9650
+      F1: 0.8371
+      Dice: 0.8371
+      IoU: 0.7198
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9464
+      Recall: 0.9912
+      F1: 0.9683
+      Dice: 0.9683
+      IoU: 0.9386
+    Class 3 (diastolic_NH):
+      Precision: 0.8365
+      Recall: 0.9677
+      F1: 0.8973
+      Dice: 0.8973
+      IoU: 0.8137
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_5.pth
+
+==================================================
+
+FOLD 6:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9741
+  Macro Precision: 0.8760
+  Macro Recall: 0.9755
+  Macro F1: 0.9193
+  Macro Dice: 0.9193
+  Macro IoU: 0.8571
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9966
+      Recall: 0.9735
+      F1: 0.9849
+      Dice: 0.9849
+      IoU: 0.9703
+    Class 1 (diastolic_CC):
+      Precision: 0.7071
+      Recall: 0.9777
+      F1: 0.8207
+      Dice: 0.8207
+      IoU: 0.6959
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9518
+      Recall: 0.9872
+      F1: 0.9692
+      Dice: 0.9692
+      IoU: 0.9402
+    Class 3 (diastolic_NH):
+      Precision: 0.8486
+      Recall: 0.9634
+      F1: 0.9024
+      Dice: 0.9024
+      IoU: 0.8221
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_6.pth
+
+==================================================
+
+FOLD 7:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9765
+  Macro Precision: 0.8889
+  Macro Recall: 0.9719
+  Macro F1: 0.9264
+  Macro Dice: 0.9264
+  Macro IoU: 0.8679
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9961
+      Recall: 0.9768
+      F1: 0.9864
+      Dice: 0.9864
+      IoU: 0.9731
+    Class 1 (diastolic_CC):
+      Precision: 0.7516
+      Recall: 0.9585
+      F1: 0.8425
+      Dice: 0.8425
+      IoU: 0.7279
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9486
+      Recall: 0.9885
+      F1: 0.9681
+      Dice: 0.9681
+      IoU: 0.9382
+    Class 3 (diastolic_NH):
+      Precision: 0.8594
+      Recall: 0.9636
+      F1: 0.9086
+      Dice: 0.9086
+      IoU: 0.8324
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_7.pth
+
+==================================================
+
+FOLD 8:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9764
+  Macro Precision: 0.8828
+  Macro Recall: 0.9747
+  Macro F1: 0.9238
+  Macro Dice: 0.9238
+  Macro IoU: 0.8639
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9967
+      Recall: 0.9762
+      F1: 0.9864
+      Dice: 0.9864
+      IoU: 0.9731
+    Class 1 (diastolic_CC):
+      Precision: 0.7420
+      Recall: 0.9682
+      F1: 0.8401
+      Dice: 0.8401
+      IoU: 0.7243
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9524
+      Recall: 0.9892
+      F1: 0.9704
+      Dice: 0.9704
+      IoU: 0.9425
+    Class 3 (diastolic_NH):
+      Precision: 0.8401
+      Recall: 0.9654
+      F1: 0.8984
+      Dice: 0.8984
+      IoU: 0.8156
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_8.pth
+
+==================================================
+
+FOLD 9:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9682
+  Macro Precision: 0.8477
+  Macro Recall: 0.9731
+  Macro F1: 0.9012
+  Macro Dice: 0.9012
+  Macro IoU: 0.8286
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9972
+      Recall: 0.9666
+      F1: 0.9816
+      Dice: 0.9816
+      IoU: 0.9639
+    Class 1 (diastolic_CC):
+      Precision: 0.6793
+      Recall: 0.9684
+      F1: 0.7985
+      Dice: 0.7985
+      IoU: 0.6646
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9383
+      Recall: 0.9909
+      F1: 0.9639
+      Dice: 0.9639
+      IoU: 0.9303
+    Class 3 (diastolic_NH):
+      Precision: 0.7759
+      Recall: 0.9665
+      F1: 0.8608
+      Dice: 0.8608
+      IoU: 0.7556
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_9.pth
+
+==================================================
+
+FOLD 10:
+------------------------------
+Validation Metrics:
+  Accuracy: 0.9773
+  Macro Precision: 0.8876
+  Macro Recall: 0.9691
+  Macro F1: 0.9244
+  Macro Dice: 0.9244
+  Macro IoU: 0.8647
+
+  Per-Class Metrics:
+    Class 0 (nothing):
+      Precision: 0.9956
+      Recall: 0.9784
+      F1: 0.9869
+      Dice: 0.9869
+      IoU: 0.9742
+    Class 1 (diastolic_CC):
+      Precision: 0.7539
+      Recall: 0.9602
+      F1: 0.8446
+      Dice: 0.8446
+      IoU: 0.7310
+    Class 2 (systolic_CC_NH):
+      Precision: 0.9543
+      Recall: 0.9868
+      F1: 0.9702
+      Dice: 0.9702
+      IoU: 0.9422
+    Class 3 (diastolic_NH):
+      Precision: 0.8467
+      Recall: 0.9509
+      F1: 0.8958
+      Dice: 0.8958
+      IoU: 0.8112
+
+  Model Path: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch/training/models/unet_fold_10.pth
+
+==================================================
+
