@@ -1,0 +1,33 @@
+================================================================================
+U-NET 4-CLASS SEGMENTATION TRAINING SUMMARY
+================================================================================
+
+TRAINING PARAMETERS:
+------------------------------
+data_path: /labs/hulab/Kejun/07_ABP_Seg/sample_data.npy
+output_dir: /labs/hulab/Kejun/07_ABP_Seg/results_pytorch
+use_all_segments: True
+epochs: 100
+batch_size: 16
+use_augmentation: False
+augmentation_factor: 2
+balance_dataset: False
+device: auto
+
+DATA INFORMATION:
+------------------------------
+Total segments: 6800
+Number of classes: 4
+Cross-validation folds: 10
+
+SYSTEM INFORMATION:
+------------------------------
+Device used: cuda
+Timestamp: 2025-09-05T06:05:35.443687
+
+CLASS MAPPING:
+------------------------------
+Class 0: nothing (background)
+Class 1: diastolic chest compression (target class)
+Class 2: systolic events (chest compression + normal heartbeat)
+Class 3: diastolic normal heartbeat
